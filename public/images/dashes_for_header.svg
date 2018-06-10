@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1875px" height="234px" viewBox="0 0 1875 234" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>7DB08B34-755E-45FA-AEE3-4183DBA3C7CB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1900" height="259"></rect>
+    </defs>
+    <g id="landings---locations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing-location-berlin_paddings_visible" transform="translate(-8.000000, -606.000000)">
+            <g id="sections/fp/header">
+                <g id="img/dashes_for_header" transform="translate(0.000000, 581.000000)">
+                    <g id="Group-10">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Rectangle-6"></g>
+                        <g id="Group-12" mask="url(#mask-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <g transform="translate(1163.000000, 126.000000)" id="Line">
+                                <path d="M0.5,623.5 L522.405164,101.594836" stroke="#FFFFFF"></path>
+                                <path d="M591.711916,61.2880837 L604.091214,48.9087864" stroke="#E8E8EC"></path>
+                                <path d="M149.5,535.5 L671.405164,13.5948362" stroke="#FFFFFF"></path>
+                                <path d="M612.458517,107.541483 L624.53225,95.4677503" stroke="#C5DE1E"></path>
+                                <path d="M456.458517,137.541483 L468.53225,125.46775" stroke="#C5DE1E"></path>
+                                <path d="M245.5,424.5 L510.592437,159.407563" stroke="#C5DE1E"></path>
+                                <path d="M53.5,600.5 L575.405164,78.5948362" stroke="#E8E8EC"></path>
+                                <path d="M719.002179,0.997821464 L661.623106,58.3768944" stroke="#1C2954"></path>
+                            </g>
+                        </g>
+                        <g id="Group" mask="url(#mask-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <g transform="translate(-404.000000, 26.000000)" id="Line">
+                                <path d="M110.5,536.5 L632.405164,14.5948362" stroke="#FFFFFF"></path>
+                                <path d="M102.5,576.5 L624.405164,54.5948362" stroke="#C5DE1E"></path>
+                                <path d="M174.5,706.5 L696.405164,184.594836" stroke="#FFFFFF"></path>
+                                <path d="M0.5,710.5 L522.405164,188.594836" stroke="#1C2954"></path>
+                                <path d="M752.711916,169.288084 L765.091214,156.908786" stroke="#E8E8EC"></path>
+                                <path d="M174.5,677.5 L696.405164,155.594836" stroke="#E8E8EC"></path>
+                                <path d="M660.711916,18.2880837 L678.612082,0.38791829" stroke="#C5DE1E"></path>
+                                <path d="M660.711916,253.288084 L696.001996,217.998004" stroke="#C5DE1E"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

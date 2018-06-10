@@ -1,0 +1,34 @@
+.Cta {
+    background-image: url("../../images/Rectangle 4.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+.Cta__title {
+    font-family: $header-font;
+    color: #fff;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.Cta__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 180px;
+}
+
+.Cta__button {
+}
+
+.Cta--get {
+    font-family: $header-font;
+    background: $cta-button;
+    margin-right: 15px;
+    padding: 14px;
+}
+
+.Cta--contact {
+    margin-left: 15px;
+    border-bottom: 2px solid $cta-button;
+}

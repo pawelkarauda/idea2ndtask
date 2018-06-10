@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
-import Layout from './componenets/Layout';
+import Site from './componenets/Site';
 
 
-ReactDOM.render(<Layout />,  document.getElementById('app'));
+ReactDOM.render(<Site />,  document.getElementById('app'));
 

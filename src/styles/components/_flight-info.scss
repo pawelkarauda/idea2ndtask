@@ -1,0 +1,37 @@
+.Flight {
+    padding: 80px 0;
+    background: #fff;
+    color: $almost-black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Flight__right {
+    max-width: 500px;
+    text-align: justify;
+}
+
+.Flight__left {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Flight--place {
+    flex-direction: column;
+    margin-right: 50px;
+    color: $cta-button;
+}
+
+.Flight--hours {
+    flex-direction: column;
+}
+
+.Flight--image {
+    margin-right: 50px;
+}
+
+.Flight--margin {
+    margin-bottom: 24px;
+}

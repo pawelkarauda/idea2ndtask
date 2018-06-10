@@ -1,2 +1,8 @@
-@import './base/settings';
-@import './base/base';
+@import "./base/settings";
+@import "./base/base";
+
+@import "./components/_site.scss";
+@import "./components/_header.scss";
+@import "./components/_flight-info.scss";
+@import "./components/_about-info.scss";
+@import "./components/_cta.scss";

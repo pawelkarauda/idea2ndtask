@@ -1,0 +1,87 @@
+.Header {
+    background-image: url("../../images/location-berlin.png");
+    background-position: 50% 10%;
+}
+
+.Header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header__nav__list {
+    list-style: none;
+    margin: 0;
+    padding: 0 15px;
+}
+
+.Header__nav__item {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.Header__nav__item--link {
+    margin-right: 7px;
+    display: block;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: $almost-black;
+    font-family: $header-font;
+    text-decoration: none;
+}
+
+.Header__nav__item--link--cat {
+    background: $lime-button;
+    font-weight: bold;
+    padding: 6px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.11);
+    margin-top: 20px;
+}
+
+.Header__brand {
+    margin-top: 20px;
+    padding: 0 15px;
+}
+
+.Header__title {
+    text-align: center;
+    margin-top: 187px;
+}
+
+.Header__title--main {
+    font-family: $header-font;
+    color: $header-color;
+    font-size: $l-size;
+    margin: 16px 0;
+}
+
+.Header__title--secondary {
+    color: $dark-gray;
+    font-family: $font;
+    font-size: $m-size;
+    margin: 0 0 200px 0;
+}
+
+.Header__hamburger {
+    display: none;
+}
+
+@media (max-width: $large-screen) {
+    .Header__hamburger {
+        display: block;
+        margin-top: 15px;
+        .Header__nav__item--icon {
+            text-decoration: none;
+            margin-right: 15px;
+            color: $dark-gray;
+            font-weight: bold;
+        }
+    }
+    .Header__nav__list {
+        display: none;
+    }
+}

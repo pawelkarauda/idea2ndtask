@@ -1,8 +1,22 @@
 // colors
+$cta-button: #6a4aea;
+$lime-button: #c5de1e;
 
+$font: "Nunito Sans";
+$header-font: "Montserrat";
+
+$social-color: #d1d3d9;
+$header-color: #1c2954;
+$dark-gray: #676e82;
+$light-gray: #9298ac;
+$almost-black: rgba(0, 0, 0, 0.87);
 
 // font-sizes
-$s-size: 1.2rem;
-$m-size: 1.6rem;
-$l-size: 3.2rem;
-$xl-size: 4.8rem;
+$l-size: 40px;
+$m-size: 20px;
+$s-size: 16px;
+
+// responsive targets
+$small-screen: 481px;
+$medium-screen: 768px;
+$large-screen: 1070px;
