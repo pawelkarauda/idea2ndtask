@@ -5,14 +5,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .Flight__right {
-    max-width: 500px;
+    padding: 0 20px;
     text-align: justify;
+    max-width: 400px;
 }
 
 .Flight__left {
+    padding: 0 10px;
     font-weight: bold;
     display: flex;
     flex-direction: row;
@@ -34,4 +37,17 @@
 
 .Flight--margin {
     margin-bottom: 24px;
+}
+
+@media (max-width: $medium-screen) {
+    .Flight {
+        flex-direction: column;
+    }
+
+    .Flight--place {        
+        margin-right: 15px;        
+    }
+    .Flight--image {
+    margin-right: 15px;
+}
 }

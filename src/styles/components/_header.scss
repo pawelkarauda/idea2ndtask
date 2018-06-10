@@ -1,6 +1,6 @@
 .Header {
     background-image: url("../../images/location-berlin.png");
-    background-position: 50% 10%;
+    background-position: 50% 140%;
 }
 
 .Header__menu {
@@ -70,10 +70,22 @@
     display: none;
 }
 
+.Header__nav__mobile {
+    display: none;
+    flex-direction: column;
+    margin-right: 30px;
+    list-style: none;
+    li {
+        text-decoration: none;
+    }
+}
+
 @media (max-width: $large-screen) {
     .Header__hamburger {
         display: block;
         margin-top: 15px;
+        text-align: right;
+        margin-right: 20px;
         .Header__nav__item--icon {
             text-decoration: none;
             margin-right: 15px;
@@ -83,5 +95,22 @@
     }
     .Header__nav__list {
         display: none;
+    }
+}
+
+@media (max-width: $medium-screen) {
+    .Header {
+        background-position: 50% -30%;
+    }
+}
+@media (max-width: $small-screen) {
+    .Header {
+        background-position: 50% -10%;
+    }
+}
+
+@media (max-width: $x-small-screen) {
+    .Header {
+        background-position: 50% -10%;
     }
 }

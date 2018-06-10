@@ -8,12 +8,14 @@
 }
 
 .About__title {
+    padding: 0 10px;
     font-family: $header-font;
     color: $header-color;
     margin-bottom: 24px;
 }
 
 .About__description {
+    padding: 0 5px;
     margin-top: 24px;
     max-width: 744px;
     text-align: justify;
